@@ -1,0 +1,21 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Office lock / temp files
+~$*
+*.tmp
+
+# Local secrets — never commit
+.env
+.env.local
+credentials
+*.pfx
+*.key
+
+# Intune / Microsoft Graph exports may contain tenant identifiers — keep examples only
+*-export.csv
+!*-export.example.csv
